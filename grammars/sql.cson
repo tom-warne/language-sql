@@ -83,7 +83,7 @@
         'name': 'keyword.other.table.sql'
       '4':
         'name': 'entity.name.function.sql'
-    'match': '(?i:^\\s*(alter)\\s+(aggregate|conversion|database|domain|function|group|index|language|operator class|operator|rule|schema|sequence|table|tablespace|trigger|type|user|view)\\s+([\'"`]?)(\\w+)\\3)'
+    'match': '(?i:^\\s*(alter)\\s+(aggregate|conversion|database|domain|function|group|index|language|operator class|operator|rule|schema|sequence|table|tablespace|trigger|type|user|view|column)\\s+([\'"`]?)(\\w+)\\3)'
     'name': 'meta.alter.sql'
   }
   {
